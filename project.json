@@ -1,85 +1,139 @@
 {
-    "aspect_ratio": "9:16",
-    "characters": [
-        {
-            "accessory": "red bandana",
-            "body": "black stickman",
-            "clothing": "dark tactical outfit",
-            "eyes": "expressive white eyes",
-            "id": "CHAR_001",
-            "name": "Alex",
-            "personality": [
-                "brave",
-                "intelligent",
-                "protective"
-            ],
-            "reference_image": "workspace/user/media_library/image/74b017f6630852b91328103a3310998b42234a20cc9fcdb596c97e9dcde9bd11.jpg",
-            "voice_profile": "alex_voice_01"
-        },
-        {
-            "body": "dark charcoal stickman",
-            "clothing": "dark green tactical vest",
-            "id": "CHAR_002",
-            "name": "Max",
-            "personality": [
-                "loyal",
-                "strong",
-                "protective"
-            ],
-            "reference_image": "workspace/user/media_library/image/74b017f6630852b91328103a3310998b42234a20cc9fcdb596c97e9dcde9bd11.jpg",
-            "voice_profile": "max_voice_01"
-        }
+  "aspect_ratio": "9:16",
+  "characters": [
+    {
+      "accessory": "red bandana",
+      "body": "black stickman",
+      "clothing": "dark tactical outfit",
+      "eyes": "expressive white eyes",
+      "id": "CHAR_001",
+      "name": "Alex",
+      "personality": [
+        "brave",
+        "intelligent",
+        "protective"
+      ],
+      "reference_image": "workspace/user/media_library/image/74b017f6630852b91328103a3310998b42234a20cc9fcdb596c97e9dcde9bd11.jpg",
+      "voice_profile": "alex_voice_01"
+    },
+    {
+      "body": "dark charcoal stickman",
+      "clothing": "dark green tactical vest",
+      "id": "CHAR_002",
+      "name": "Max",
+      "personality": [
+        "loyal",
+        "strong",
+        "protective"
+      ],
+      "reference_image": "workspace/user/media_library/image/74b017f6630852b91328103a3310998b42234a20cc9fcdb596c97e9dcde9bd11.jpg",
+      "voice_profile": "max_voice_01"
+    },
+    {
+      "id": "CHAR_003",
+      "name": "Luna",
+      "body": "black stickman",
+      "eyes": "expressive eyes",
+      "clothing": "dark survival jacket",
+      "accessory": "medical backpack with white cross",
+      "personality": [
+        "intelligent",
+        "calm",
+        "resourceful",
+        "compassionate"
+      ],
+      "voice_profile": "luna_voice_01",
+      "reference_image": "workspace/user/media_library/image/74b017f6630852b91328103a3310998b42234a20cc9fcdb596c97e9dcde9bd11.jpg",
+      "hair": "long dark hair tied in a ponytail",
+      "notes": "Never wears a red bandana (the bandana is Alex\u2019s only); permanent design since Episode 2 v3, Vio 2026-11-24"
+    },
+    {
+      "id": "CHAR_004",
+      "name": "Shadow",
+      "body": "dark black silhouette",
+      "eyes": "glowing eyes",
+      "clothing": "hooded clothing",
+      "accessory": "lightweight equipment, old radio",
+      "personality": [
+        "quiet",
+        "mysterious",
+        "observant",
+        "secretive"
+      ],
+      "voice_profile": "shadow_voice_01",
+      "reference_image": "workspace/user/media_library/image/74b017f6630852b91328103a3310998b42234a20cc9fcdb596c97e9dcde9bd11.jpg"
+    }
+  ],
+  "current_episode": 2,
+  "production": {
+    "audio_status": "complete",
+    "duration_seconds": 60,
+    "final_video": "workspace/stickocalypse/episode-02/stickocalypse-ep02-1080x1920.mp4",
+    "image_status": "complete",
+    "quality_score": 97,
+    "render_status": "complete",
+    "scene_count": 8,
+    "video_status": "complete"
+  },
+  "project": "STICKOCALYPSE",
+  "story_memory": {
+    "timeline": [
+      "Day 47: the city fell in one night",
+      "Alex alone on the rooftop at sunset with the glowing baton; helicopter overhead",
+      "Max warns: the horde found the bridge",
+      "The horde is seen moving through the ruined city and across rooftops",
+      "Radio mentions a safe zone; Alex plans to move at dawn, Max says dawn is too late",
+      "Rooftop chase; Alex and Max jump the gap between buildings",
+      "Max slips at the rooftop edge; Alex pulls him up as the baton flares",
+      "The bunker door is locked; the radio crackles with a strange signal",
+      "The bunker door opens by itself; glowing eyes in the dark; a voice says 'You shouldn't be here.'",
+      "Episode 2: Shadow steps out of the bunker dark and knows Alex's name",
+      "Max wants to run; Alex refuses to leave until Shadow talks",
+      "Shadow reveals the safe zone is a lie; Alex asks who sent the signal",
+      "Luna appears and bandages Max's bleeding arm; she heard the radio too",
+      "Inside the bunker: Shadow has lived here since Day One; someone had to keep the door locked",
+      "The horde followed the baton light; the steel door rattles and won't hold",
+      "Escape plan: a tunnel under the floor; they go together",
+      "Radio orders Shadow: 'Shadow... the trap is set. Bring them to the safe zone.'"
     ],
-    "current_episode": 1,
-    "production": {
-        "audio_status": "complete",
-        "duration_seconds": 60,
-        "final_video": "workspace/stickocalypse/episode-01/stickocalypse-ep01-the-last-day-1080x1920.mp4",
-        "image_status": "complete",
-        "quality_score": 94,
-        "render_status": "complete",
-        "scene_count": 8,
-        "video_status": "complete"
-    },
-    "project": "STICKOCALYPSE",
-    "story_memory": {
-        "timeline": [
-            "Day 47: the city fell in one night",
-            "Alex alone on the rooftop at sunset with the glowing baton; helicopter overhead",
-            "Max warns: the horde found the bridge",
-            "The horde is seen moving through the ruined city and across rooftops",
-            "Radio mentions a safe zone; Alex plans to move at dawn, Max says dawn is too late",
-            "Rooftop chase; Alex and Max jump the gap between buildings",
-            "Max slips at the rooftop edge; Alex pulls him up as the baton flares",
-            "The bunker door is locked; the radio crackles with a strange signal",
-            "The bunker door opens by itself; glowing eyes in the dark; a voice says 'You shouldn't be here.'"
-        ],
-        "locations": [
-            "Rooftop over the burning city",
-            "The bridge (horde crossing point)",
-            "Ruined city streets and rooftops",
-            "Steel bunker door - RESTRICTED LEVEL 3"
-        ],
-        "important_events": [
-            "Alex introduced on the rooftop, Day 47",
-            "Max warns the horde found the bridge",
-            "Radio safe-zone message heard; dawn departure planned and disputed",
-            "Rooftop chase and gap jump",
-            "Max rescued at the rooftop edge",
-            "Locked bunker door; strange radio signal",
-            "Bunker door opens by itself; Shadow teased (glowing eyes + voice)"
-        ],
-        "unresolved_mysteries": [
-            "Who is inside the bunker? (glowing eyes / Shadow tease)",
-            "What is the strange radio signal?",
-            "Where is the safe zone, and is it real?",
-            "What happened on the night the city fell?",
-            "Where are Luna and the other survivors?"
-        ],
-        "relationships": [
-            "Alex and Max: survival partners - Alex leads and plans, Max defends and warns; Alex saves Max at the rooftop edge"
-        ]
-    },
-    "universe": "THE LAST SURVIVORS",
-    "visual_style": "cinematic_3d"
+    "locations": [
+      "Rooftop over the burning city",
+      "The bridge (horde crossing point)",
+      "Ruined city streets and rooftops",
+      "Steel bunker door - RESTRICTED LEVEL 3",
+      "Bunker interior - concrete room, supply shelves, pinned wall map, radio equipment",
+      "Floor hatch + tunnel ladder descending into the dark"
+    ],
+    "important_events": [
+      "Alex introduced on the rooftop, Day 47",
+      "Max warns the horde found the bridge",
+      "Radio safe-zone message heard; dawn departure planned and disputed",
+      "Rooftop chase and gap jump",
+      "Max rescued at the rooftop edge",
+      "Locked bunker door; strange radio signal",
+      "Bunker door opens by itself; Shadow teased (glowing eyes + voice)",
+      "Shadow properly introduced; knows Alex's name",
+      "Safe zone revealed as a lie / lure",
+      "Luna's first appearance; treats Max's arm",
+      "Bunker interior revealed; Shadow lives there since Day One",
+      "Horde follows the baton light to the bunker",
+      "Tunnel escape; radio orders Shadow to bring them to the safe zone"
+    ],
+    "unresolved_mysteries": [
+      "Who is the voice on the radio giving Shadow orders \u2014 and what is the trap?",
+      "Is Shadow a friend, a prisoner of the voice, or the trap itself?",
+      "What is down the tunnel \u2014 and where does it lead?",
+      "Where is the safe zone, and is it real? (Known: the safe-zone message is a lie / lure.)",
+      "What happened on the night the city fell?",
+      "Are there other survivors besides Luna \u2014 and who else heard the radio?"
+    ],
+    "relationships": [
+      "Alex and Max: survival partners - Alex leads and plans, Max defends and warns; Alex saves Max at the rooftop edge",
+      "Shadow and the group: uneasy ally \u2014 told the truth about the safe zone but takes orders from the radio voice",
+      "Luna and the group: new ally \u2014 treats Max without being asked and joins the escape",
+      "Luna and Shadow: strangers who both found the bunker through the radio signal"
+    ]
+  },
+  "universe": "THE LAST SURVIVORS",
+  "visual_style": "cinematic_3d"
 }

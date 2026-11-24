@@ -2,7 +2,7 @@
 
 Universe: **THE LAST SURVIVORS**
 Project: STICKOCALYPSE
-Current episode: 1
+Current episode: 2
 Visual style: cinematic_3d
 Aspect ratio: 9:16
 Duration: 60 seconds, 8 scenes x 7.5 seconds
@@ -18,12 +18,11 @@ Satu record per karakter. Desain tidak boleh diubah tanpa izin Vio.
 |---|---|---|---|---|---|---|---|---|
 | CHAR_001 | Alex | black stickman | expressive white eyes | dark tactical outfit | red bandana | brave, intelligent, protective | alex_voice_01 | null — belum ada |
 | CHAR_002 | Max | dark charcoal stickman | — | dark green tactical vest | — | loyal, strong, protective | max_voice_01 | null — belum ada |
-| CHAR_003 | Luna | black stickman | distinctive expressive eyes | dark survival jacket | medical backpack | intelligent, calm, resourceful, compassionate | luna_voice_01 | null — belum ada |
+| CHAR_003 | Luna | black stickman | distinctive expressive eyes | dark survival jacket | medical backpack; long dark hair tied in a ponytail (permanent design since Ep 2 v3, Vio 2026-11-24), NEVER wears a red bandana | intelligent, calm, resourceful, compassionate | luna_voice_01 | null — belum ada |
 | CHAR_004 | Shadow | dark black silhouette | glowing eyes | hooded clothing | lightweight equipment | quiet, mysterious, observant, secretive | shadow_voice_01 | null — belum ada |
 
-Catatan Episode 1: file `project.json` saat ini baru berisi Alex dan Max.
-Luna dan Shadow tetap tercatat di sini sebagai karakter permanen Master Brain,
-untuk dikenalkan di episode berikutnya.
+Catatan Episode 2: `project.json` kini berisi keempat karakter
+(Alex, Max, Luna, Shadow) dan `current_episode` 2.
 
 Field wajib per karakter:
 - character_id, name, appearance, clothing, personality
@@ -47,7 +46,18 @@ Per episode:
 - main_events, character_appearances
 - unresolved_mysteries, next_episode_direction
 
-Episode 1: belum ada judul, ringkasan, atau event — masih pending.
+Episode 1 "THE LAST DAY" (2026-11-24, QC 96/100 v5): Alex di atap kota
+terbakar, Max memperingatkan horde menemukan jembatan; mereka lari di atap,
+melompat antar gedung, dan mencapai pintu bunker — pintu terbuka sendiri.
+
+Episode 2 "THE DOOR OPENS" (2026-11-24, QC 97/100 v3; v1 91, v2 96): Shadow keluar dari
+bunker dan tahu nama Alex; safe zone terungkap sebagai jebakan/kebohongan;
+Luna muncul pertama kali dan membalut lengan Max yang berdarah; interior
+bunker terungkap (Shadow tinggal di sana sejak Day One); horde mengikuti
+cahaya baton ke bunker; pelarian lewat terowongan di bawah lantai;
+cliffhanger: radio memerintah Shadow, "the trap is set. Bring them to the
+safe zone." Karakter baru tercatat: Luna (CHAR_003) dan Shadow (CHAR_004)
+kini masuk `project.json` (current_episode 2).
 
 ## 4. PRODUCTION_MEMORY
 
@@ -55,9 +65,11 @@ Per episode:
 - script_status, image_status, video_status, audio_status
 - editing_status, export_status, quality_score, final_file_location
 
-Episode 1 saat ini: image_status pending, video_status pending,
-audio_status pending, render_status pending, quality_score null,
-final_video null.
+Episode 1: v5 selesai, QC 96/100, 7 dari 8 scene video asli (Scene 3
+masih still), file final `episode-01/stickocalypse-ep01-the-last-day-1080x1920.mp4`.
+
+Episode 2: v3 selesai, QC 97/100, 8 dari 8 scene video asli, audio
+-15,5 LUFS, file final `episode-02/stickocalypse-ep02-1080x1920.mp4`.
 
 ## 5. STYLE_MEMORY
 

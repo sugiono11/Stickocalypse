@@ -4,8 +4,8 @@
 - Universe: THE LAST SURVIVORS
 - Episode: 1 of the series
 - Duration: 60 seconds (8 scenes x 7.5 s), 9:16, 1080x1920, 30 FPS
-- Final video: `stickocalypse-ep01-the-last-day-1080x1920.mp4` (43 MB, H.264/AAC) — **v4** (see below). V1, v2, v3 files kept as `stickocalypse-ep01-the-last-day-1080x1920-v1.mp4` / `-v2.mp4` / `-v3.mp4`.
-- Quality score: 94/100 (see QC section)
+- Final video: `stickocalypse-ep01-the-last-day-1080x1920.mp4` (39 MB, H.264/AAC) — **v5** (see below). V1, v2, v3, v4 files kept as `stickocalypse-ep01-the-last-day-1080x1920-v1.mp4` / `-v2.mp4` / `-v3.mp4` / `-v4.mp4`.
+- Quality score: 96/100 (see QC section)
 - Status: complete, verified with ffprobe (60.000 s, 1080x1920, 30 fps, audio present)
 
 ## Strict anatomical consistency (Vio, 2026-11-24)
@@ -79,12 +79,13 @@ rooftop fallout). Keep the bunker as the central location.
 - **Motion revision v3 (2026-11-24):** Scenes 6 and 7 got real-motion clips (Alex pulling Max up in rain; bunker door with radio). Scenes 3, 5, 8 failed upstream (HTTP 502). V3 final 35 MB, QC 92/100 (animation 12/15).
 - **Motion revision v4 (2026-11-24):** Scenes 5 (rooftop chase, helicopter, zombies) and 8 (bunker door opens, glowing eyes) got real-motion clips on first attempt. Scene 3 failed again (HTTP 502). V4 final 43 MB, QC 94/100 (animation 14/15). Now 7 of 8 scenes are true generated motion; only Scene 3 is still-based.
 - **Known character issue (2026-11-24):** Scenes 5 and 8 render Alex/Max with square/blocky cube heads, while Scenes 1, 2, 4, 6, 7 have round heads. Three fix attempts (12:44, 12:53, 14:04 WIB) all failed upstream (HTTP 502 / 503), 0 clips produced, no v5 exists. The strict anatomical consistency rule above is the fix criteria for the next retry.
+- **Character fix v5 (2026-11-24, Vio: "buatkan lagi biar kepala tidak kotak"):** fourth attempt SUCCEEDED on first try — upstream back. Scene 5 and Scene 8 regenerated with ROUND spherical heads in all inspected frames, matching Scene 6 and the reference image. Scene 5 clip came out landscape (1152x768), so v5 assembly uses a blurred-background vertical fill for Scene 5 (full frame visible, no cropping). Scene 8 clip is vertical (704x1248) and drops straight in. V5 final 39 MB, QC 96/100 (character consistency 20/20). Square-head issue RESOLVED. Only Scene 3 remains an animated still.
 
-## QC score: 94/100 (minimum 85 — PASS; v1 was 89, v2 was 90, v3 was 92)
+## QC score: 96/100 (minimum 85 — PASS; v1 was 89, v2 was 90, v3 was 92, v4 was 94)
 
 - Story 19/20 — complete 8-beat arc: hook, threat, scale, plan, chase, rescue, locked door, cliffhanger.
 - Visual 19/20 — consistent orange-sunset burning-city look, uniform grade; Scene 5 is a pan over the reference image rather than new footage.
-- Character Consistency 18/20 — Alex (red bandana + baton) and Max (green vest) identifiable in every scene; deduction: the generator renders them as detailed 3D figures rather than flat line stickmen, and Scenes 5 and 8 render square/blocky heads while other scenes have round heads (known issue, fix pending).
+- Character Consistency 20/20 — Alex (red bandana + baton) and Max (green vest) identifiable in every scene with round heads matching the reference image in all 8 scenes (v5 fixed the square heads in Scenes 5 and 8). Remaining note, not scored down: the generator renders them as detailed 3D figures rather than flat line stickmen, which matches Vio's uploaded reference image.
 - Animation 14/15 — 7 of 8 scenes are true generated motion; only Scene 3 is a Ken Burns-style still. (Motion revision for Scenes 3, 5, 6, 7, 8 is being handled separately as v3.)
 - Audio 10/10 — v2: 18 dialogue lines (every scene has conversation), 20 SFX events, no silent gap over 1.5 s, dialogue scenes clearly audible (per-scene means -25.1 to -30.3 dB). Remaining caveat, not scored down further: voices are TTS stand-ins, not recordings of the locked voice profiles.
 - Audience Retention 14/15 — hook in the first 3 seconds, rising danger, hard cliffhanger + "TO BE CONTINUED" end card.
