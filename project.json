@@ -1,0 +1,54 @@
+{
+    "aspect_ratio": "9:16",
+    "characters": [
+        {
+            "accessory": "red bandana",
+            "body": "black stickman",
+            "clothing": "dark tactical outfit",
+            "eyes": "expressive white eyes",
+            "id": "CHAR_001",
+            "name": "Alex",
+            "personality": [
+                "brave",
+                "intelligent",
+                "protective"
+            ],
+            "reference_image": null,
+            "voice_profile": "alex_voice_01"
+        },
+        {
+            "body": "dark charcoal stickman",
+            "clothing": "dark green tactical vest",
+            "id": "CHAR_002",
+            "name": "Max",
+            "personality": [
+                "loyal",
+                "strong",
+                "protective"
+            ],
+            "reference_image": null,
+            "voice_profile": "max_voice_01"
+        }
+    ],
+    "current_episode": 1,
+    "production": {
+        "audio_status": "pending",
+        "duration_seconds": 60,
+        "final_video": null,
+        "image_status": "pending",
+        "quality_score": null,
+        "render_status": "pending",
+        "scene_count": 8,
+        "video_status": "pending"
+    },
+    "project": "STICKOCALYPSE",
+    "story_memory": {
+        "important_events": [],
+        "locations": [],
+        "relationships": [],
+        "timeline": [],
+        "unresolved_mysteries": []
+    },
+    "universe": "THE LAST SURVIVORS",
+    "visual_style": "cinematic_3d"
+}
