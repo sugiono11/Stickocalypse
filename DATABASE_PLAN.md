@@ -67,6 +67,7 @@ final_video null.
 - subtitle design, sound identity
 
 Aturan kunci:
+- STRICT ANATOMICAL CONSISTENCY (Vio, 2026-11-24): use the exact same approved 3D stickman character from the supplied reference image — the reference is the absolute source of truth. Preserve the original head size, head shape, shoulder width, torso length, arm length, leg length, limb thickness, eye placement and overall silhouette. The character must retain the exact same body model throughout the entire animation. Animate only the required movements; natural body movement is allowed, but do not redesign, stretch, shrink, morph or deform the character. Maintain the same clothing, accessories and visual identity. Use physically coherent movement with consistent anatomy across all frames.
 - Visual consistency wajib — setiap scene harus terlihat seperti satu film yang sama.
 - Jangan ubah identitas visual secara acak.
 - Gunakan reference image untuk image dan video generation.

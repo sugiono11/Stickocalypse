@@ -17,7 +17,9 @@ before production.
   STORY_MEMORY, PRODUCTION_MEMORY, and STYLE_MEMORY. This is the lock for
   characters and voices.
 - `project.json` — the same project state as machine-readable JSON
-  (Episode 1, Alex and Max, production all pending).
+  (Episode 1, Alex and Max, production complete, quality score 94).
+- `episode-01/` — Episode 1 "THE LAST DAY" continuity record, script,
+  storyboard, subtitles, and YouTube package.
 
 ## Permanent characters
 
@@ -35,5 +37,11 @@ Full details are in `DATABASE_PLAN.md`.
 
 ## Status — Episode 1
 
-Story memory is empty and all production stages are pending
-(image / video / audio / render). No final video yet.
+**Complete, v4** — 60 seconds, 1080x1920, 30 FPS, verified with ffprobe.
+Quality score **94/100**. Audio v2: 18 dialogue lines, 20 SFX events.
+Motion: 7 of 8 scenes are true generated video; only Scene 3 (horde wide)
+is still an animated still (video generation failed upstream, HTTP 502).
+Known issue: Scenes 5 and 8 render Alex/Max with square/blocky heads,
+other scenes have round heads — fix attempts failed upstream (HTTP 502/503),
+see `episode-01/EPISODE_01.md`. Strict anatomical consistency rule applies:
+the supplied reference image is the absolute source of truth.

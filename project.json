@@ -13,7 +13,7 @@
                 "intelligent",
                 "protective"
             ],
-            "reference_image": null,
+            "reference_image": "workspace/user/media_library/image/74b017f6630852b91328103a3310998b42234a20cc9fcdb596c97e9dcde9bd11.jpg",
             "voice_profile": "alex_voice_01"
         },
         {
@@ -26,28 +26,59 @@
                 "strong",
                 "protective"
             ],
-            "reference_image": null,
+            "reference_image": "workspace/user/media_library/image/74b017f6630852b91328103a3310998b42234a20cc9fcdb596c97e9dcde9bd11.jpg",
             "voice_profile": "max_voice_01"
         }
     ],
     "current_episode": 1,
     "production": {
-        "audio_status": "pending",
+        "audio_status": "complete",
         "duration_seconds": 60,
-        "final_video": null,
-        "image_status": "pending",
-        "quality_score": null,
-        "render_status": "pending",
+        "final_video": "workspace/stickocalypse/episode-01/stickocalypse-ep01-the-last-day-1080x1920.mp4",
+        "image_status": "complete",
+        "quality_score": 94,
+        "render_status": "complete",
         "scene_count": 8,
-        "video_status": "pending"
+        "video_status": "complete"
     },
     "project": "STICKOCALYPSE",
     "story_memory": {
-        "important_events": [],
-        "locations": [],
-        "relationships": [],
-        "timeline": [],
-        "unresolved_mysteries": []
+        "timeline": [
+            "Day 47: the city fell in one night",
+            "Alex alone on the rooftop at sunset with the glowing baton; helicopter overhead",
+            "Max warns: the horde found the bridge",
+            "The horde is seen moving through the ruined city and across rooftops",
+            "Radio mentions a safe zone; Alex plans to move at dawn, Max says dawn is too late",
+            "Rooftop chase; Alex and Max jump the gap between buildings",
+            "Max slips at the rooftop edge; Alex pulls him up as the baton flares",
+            "The bunker door is locked; the radio crackles with a strange signal",
+            "The bunker door opens by itself; glowing eyes in the dark; a voice says 'You shouldn't be here.'"
+        ],
+        "locations": [
+            "Rooftop over the burning city",
+            "The bridge (horde crossing point)",
+            "Ruined city streets and rooftops",
+            "Steel bunker door - RESTRICTED LEVEL 3"
+        ],
+        "important_events": [
+            "Alex introduced on the rooftop, Day 47",
+            "Max warns the horde found the bridge",
+            "Radio safe-zone message heard; dawn departure planned and disputed",
+            "Rooftop chase and gap jump",
+            "Max rescued at the rooftop edge",
+            "Locked bunker door; strange radio signal",
+            "Bunker door opens by itself; Shadow teased (glowing eyes + voice)"
+        ],
+        "unresolved_mysteries": [
+            "Who is inside the bunker? (glowing eyes / Shadow tease)",
+            "What is the strange radio signal?",
+            "Where is the safe zone, and is it real?",
+            "What happened on the night the city fell?",
+            "Where are Luna and the other survivors?"
+        ],
+        "relationships": [
+            "Alex and Max: survival partners - Alex leads and plans, Max defends and warns; Alex saves Max at the rooftop edge"
+        ]
     },
     "universe": "THE LAST SURVIVORS",
     "visual_style": "cinematic_3d"
